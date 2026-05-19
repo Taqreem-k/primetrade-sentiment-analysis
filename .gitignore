@@ -1,0 +1,41 @@
+# =========================
+# Python & Environment
+# =========================
+# uv virtual environment (Standard for uv)
+.venv/
+
+# Standard Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# =========================
+# Data (CRITICAL for this project)
+# =========================
+# Ignores everything in the data folder except a potential README explaining how to get the data
+data/*
+!data/README.md
+
+# Catch-all for data files in case they are dropped in the root folder
+*.csv
+*.xlsx
+*.parquet
+*.json
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
